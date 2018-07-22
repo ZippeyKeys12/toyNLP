@@ -1,0 +1,38 @@
+{
+  "entrees":[
+    {"name":"burger", "ingredients": ["sesame seed bun", "sesame seed bun", "patty", "lettuce", "tomato", "cheese"]},
+    {"name":"hotdog", "ingredients": ["hotdog bun", "beef hotdog", "onions", "relish"]},
+    {"name":"chicken", "ingredients": ["chicken"]},
+    {"name":"beef", "ingredients": ["beef"]}
+  ],
+
+  "appetizers":[
+    {"name":"bread", "ingredients": ["wheat"]},
+    {"name":"chips", "ingredients": ["potato", "salt"]},
+    {"name":"salad", "ingredients": ["lettuce", "tomato", "croutons", "dressing of choice", "cheese", "carrots", "onion"]},
+    {"name":"onion rings", "ingredients": ["onion", "breading"]},
+    {"name":"nachos", "ingredients": ["chips", "dip of choice"]}
+  ],
+
+  "sides":[
+    {"name":"fries", "ingredients": ["potatoes"]},
+    {"name":"hash browns", "ingredients": ["potatoes"]},
+    {"name":"potatoes", "ingredients": ["potatoes"]},
+    {"name":"vegetables", "ingredients": ["carrots", "celery", "grapes"]}
+  ],
+
+  "desserts":[
+    {"name":"ice cream", "ingredients": ["milk", "cherries", "nuts"]},
+    {"name":"cake", "ingredients": ["chocolate", "milk", "butter", "flour", "sugar"]},
+    {"name":"fudge", "ingredients": ["chocolate", "milk", "butter"]}
+  ],
+
+  "drinks":[
+    {"name":"coke", "ingredients": ["water", "syrup", "sugar"]},
+    {"name":"water", "ingredients": ["water"]},
+    {"name":"sprite", "ingredients": ["water", "syrup", "sugar"]},
+    {"name":"milk", "ingredients": ["milk"]},
+    {"name":"gatorade", "ingredients": ["water", "sugar", "electrolytes"]},
+    {"name":"mountain dew", "ingredients": ["water", "syrup", "sugar"]}
+  ]
+}
