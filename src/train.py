@@ -69,11 +69,9 @@ if not os.path.isfile("nlp.h5"):
     # expected input data shape: (batch_size, timesteps, data_dim) np.array((batch_size, 5, 1))
     inputs = []
     outputs = []
-    tempinputs = []
     with open("training_data.json", "r") as Input:
         JsonFile = json.load(Input)
         for Set in JsonFile:
-            tempinputs = []
             inputs.append(preprocess(Set))
             outputs.append(np.array([JsonFile[Set]]))
     inputs = sequence.pad_sequences(inputs, maxlen=maxLength)
